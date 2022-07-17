@@ -22,3 +22,7 @@ INSERT INTO tb_offer(edition,start_Moment,end_Moment,course_id) VALUES('2.0',TIM
 INSERT INTO tb_resource(title,description,position,img_Uri,type,offer_id) VALUES('Trilha HTML','Trilha principal do curso',1,'https://cdn.iconscout.com/icon/free/png-256/education-cap-2130827-1794972.png', 1,1);
 INSERT INTO tb_resource(title,description,position,img_Uri,type,offer_id) VALUES('Forum','Tire suas dúvidas',2,'https://cdn.iconscout.com/icon/free/png-256/education-cap-2130827-1794972.png', 2,1);
 INSERT INTO tb_resource(title,description,position,img_Uri,type,offer_id) VALUES('Lives','Lives exclusivas',3,'https://cdn.iconscout.com/icon/free/png-256/education-cap-2130827-1794972.png', 0,1);
+
+INSERT INTO tb_section(title,description,position,img_Uri,resource_id,prerequisite_id) VALUES('Capítulo 1','Neste capítulo vamos começar',1,'https://cdn.iconscout.com/icon/free/png-256/education-cap-2130827-1794972.png',1,null)
+INSERT INTO tb_section(title,description,position,img_Uri,resource_id,prerequisite_id) VALUES('Capítulo 2','Neste capítulo vamos continuar',2,'https://cdn.iconscout.com/icon/free/png-256/education-cap-2130827-1794972.png',1,1)
+INSERT INTO tb_section(title,description,position,img_Uri,resource_id,prerequisite_id) VALUES('Capítulo 3','Neste capítulo vamos finalizar',3,'https://cdn.iconscout.com/icon/free/png-256/education-cap-2130827-1794972.png',1,2)
