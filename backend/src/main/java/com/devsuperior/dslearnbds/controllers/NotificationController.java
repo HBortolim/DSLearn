@@ -1,10 +1,7 @@
 package com.devsuperior.dslearnbds.controllers;
 
 import com.devsuperior.dslearnbds.dto.NotificationDTO;
-import com.devsuperior.dslearnbds.entities.Notification;
-import com.devsuperior.dslearnbds.repositories.NotificationRepository;
 import com.devsuperior.dslearnbds.services.NotificationService;
-import org.apache.coyote.Response;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
